@@ -48,6 +48,9 @@ header > h1 {
 header > p {
     padding-bottom: 50px;
 }
+p {
+    padding-left: 10px;
+}
 a {
     color: white;
     text-decoration: none;
@@ -67,6 +70,9 @@ section {
     font-family: var(--fonte3);
     font-size: 3vh;
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -75,10 +81,32 @@ section.imagem {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.349);
     color: white;
+    text-shadow: 2px 2px 0px black;
+    background-attachment: fixed;
 }
 section.imagem > p {
-    width: 400px;
+    width: 100em;
     background-color: rgba(0, 0, 0, 0.247);
+    box-shadow: inset 6px 6px 13px 0px #00000013;
+    
+}
+section#img01 {
+    background-image: url(../imagens/album\ foto.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+section#img02 {
+    background-image: url(../imagens/novo\ album.jpg);
+    background-size: cover;
+}
+section#img03 {
+    background-image: url(../imagens/slash.jpg);
+    background-size: cover;
+}
+section#img04 {
+    background-image: url(../imagens/guns\ n\ roses\ piratas.jpg);
+    background-size: contain;
 }
 footer {
     background-color: black;
